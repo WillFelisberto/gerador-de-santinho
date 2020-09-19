@@ -1,13 +1,63 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: #282c34;
+  background-image: url("../src/img/urnabackgroud.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.customModal {
+  background: #b2dbbf;
+  max-width: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  text-align: center;
+  padding: 20px;
+}
+.infoCard {
+  position: absolute;
+  top: 67%;
+  left: 18%;
+  font-size: 36px;
+  left: 9%;
+  color: white;
+  font-weight: bolder !important;
+  z-index: 1;
+}
+
+.infoCardNumero {
+  position: absolute;
+  top: 75%;
+  left: 29%;
+  font-size: 36px;
+  color: white;
+  font-weight: bolder !important;
+  z-index: 1;
+}
+.container {
+  max-width: 800px;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 0 20px 1px black;
+  padding: 30px;
+  margin: 90px auto;
+  margin-bottom: 50px;
+}
+
+.header {
+  text-align: center;
+  padding-top: 30px;
 }

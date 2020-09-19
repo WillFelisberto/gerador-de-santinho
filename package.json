@@ -6,8 +6,12 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "materialize-css": "^1.0.0",
     "react": "^16.13.1",
+    "react-component-export-image": "^0.1.7",
     "react-dom": "^16.13.1",
+    "react-hook-form": "^6.8.3",
+    "react-responsive-modal": "^5.1.0",
     "react-scripts": "3.4.3"
   },
   "scripts": {
