@@ -12,7 +12,7 @@ body {
     sans-serif;
   background-color: #282c34;
   background-image: url("../src/img/urnabackgroud.jpg");
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
